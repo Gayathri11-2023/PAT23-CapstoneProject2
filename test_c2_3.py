@@ -53,4 +53,4 @@ class Test:
                 print(f"{option} option is not displayed.")
         
         except NoSuchElementException as e:
-              Print("error")
+              print("error")
