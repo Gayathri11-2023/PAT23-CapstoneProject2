@@ -14,7 +14,7 @@ import pytest
 
 
 # Defining a test class
-class Test:
+class Test_case1:
     dashboard = "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
 
     # pytest fixture for setting up the test environment
@@ -28,7 +28,7 @@ class Test:
         self.driver.quit()
 
     @pytest.mark.html
-    def test_login(self, boot):
+    def test_forgotpwd_link(self, boot):
         try:
            # Opening the specified URL in the browser
             self.driver.get(data.WebData().url)
